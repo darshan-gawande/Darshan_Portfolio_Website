@@ -4,110 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ComponentLibrary</title>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hii, Darshan Gawande Component Library!</h1>
-    
-    <p> I am feeling nervous because my friends is giving presentation and I am not but I have reason for that because sir give us one task which I need to complete </p>
+    <h2>Darshan Gawande</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">I am Developer</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="li  link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="li" href="/project.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="li" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
 
-    <hr>
-
-    <h2>Typography</h2>
-    <h2>h2 is the second biggest heading </h2>
-    <p> Typography means style or apppearance of the printed matters </p>
-    <small>I don't know how small works but I will find !</small>
-
-    <hr>
-
-    <h2>@Container</h2>
-
-    <h3>@fluid Container</h3>
-    <div>This is fluid container and I know about how is works </div>
-
-    <h3>@central container</h3>
-    <div>Again I don't know about container and about my project</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-    <a href="/">primary link </a>
-    <a href="/">secondary link </a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-    <h3>Unorder List</h3>
-    <ul>
-        <li> order one</li>
-        <li>order second</li>
-        <li>order third </li>
-    </ul>
-
-    <h3>Inline unorder list</h3>
-
-    <ul>
-        <li>Inline order one </li>
-        <li>Inline order second </li>
-        <li>Inline order three </li>
-    </ul>
-
-    <h3>reverse order list</h3>
-    <ol>
-    <li>milk</li>
-    <li>egg</li>
-    <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-    <div>IamDeveloper</div>
-    <ul>
-        <li>
-            <a href="/">home</a>
-        </li>
-        <li>
-            <a href="/">product/projects</a>
-        </li>
-        <li>
-            <a href="/">contact</a>
-        </li>
-    </ul>
-
-    <hr>
-
-    <h2>Header</h2>
-    <header>
-        <img src="/Images/dev.svg" />
-        <h1>below to our image </h1>
+    <header class="hero">
+        <img class="hero-image" src="/Images/dev.svg" />
+        <h1 class="hero-heading">I am <span class="heading-inverted"> Full Stack Developer </span>
+        </h1>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-    <section>
-        <h3>white  section </h3>
-        <p> this will make white section </p>
-     </section>
-     <section>
-        <h3>off white section </h3>
-        <p> this will make off white means grey  section</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>technologies</h1>
+            <p> I'm familiar with <strong>HTML5, CSS3, Git,  Javascript, Node js, Rects js and Web Hosting</strong> 
+            </p>
+        </div>
     </section>
 
-    <hr>
+    <section class="section">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p> I would like showcase my works and thus, you can see my project with hosted online
+                </p>
+
+            <a href="/" class="link link-primary">See Projects </a>
+            
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>I started liking the web development and I like to document my journey of learning 
+            </p>
+            <a href="/" class="link link-secondary">Read Blogs</a>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Social Media </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Darshan1100"> GitHub </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/darshan-gawande-569327192/"> LinkedIn
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link"href="https://twitter.com/home">
+                    Twitter
+                </a>
+            </li>
+        </ul>
+    </footer>
 
 
-    <h2>@footer</h2>
-    <footer> 
-        <div>some small heading footer </div>
-        <ul>
-        <li>list 1</li>
-        <li>list 2</li>
-        <li>list 3</li>
-    </ul>
-</footer>
 
-    <!-- <div style ="height : 20vh;"></div> -->
 </body>
 </html>
