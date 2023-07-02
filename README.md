@@ -1,3 +1,3 @@
-# HTML-Portfolio
-I learned so much from portfolia website, now I have clear idea that how I can used HTML5 and CSS3 .
-With is portfolio website I can showcase all my projects and learnings
+#Portfolio Website
+
+This is portfolio website where I showcase all my projects, learnings, blogs and many more 
